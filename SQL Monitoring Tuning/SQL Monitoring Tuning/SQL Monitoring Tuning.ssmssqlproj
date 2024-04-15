@@ -52,11 +52,113 @@
           <AssociatedConnUserName />
           <FullPath>03_DBSettings.sql</FullPath>
         </FileNode>
-        <FileNode Name="SRV_MAXDOP.sql">
+        <FileNode Name="03_TraceFlags.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>SRV_MAXDOP.sql</FullPath>
+          <FullPath>03_TraceFlags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Kompression.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_Kompression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_part Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_part Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Partitionierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_Partitionierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25_Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>25_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30_Wartung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>30_Wartung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>40_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="41_Tools.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>41_Tools.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Auffinden geeignter Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Auffinden geeignter Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Fehlende Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Fehlende Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Indexsehen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Indexsehen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_links.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_links.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Spieltabelle mit ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Spieltabelle mit ID.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_spieltabelle.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -64,10 +166,29 @@
           <AssociatedConnUserName />
           <FullPath>Z_spieltabelle.sql</FullPath>
         </FileNode>
+        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Überflüssige Indizes.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="PerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonVorlage.xml</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

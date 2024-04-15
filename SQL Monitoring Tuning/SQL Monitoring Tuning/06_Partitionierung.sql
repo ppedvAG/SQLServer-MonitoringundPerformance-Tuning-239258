@@ -17,7 +17,13 @@ bis200
 bis5000
 rest
 
+hv-sql1
 
+schulung\administrator	
+ppedv2023!
+
+
+Z_instnwnd.sql
 
 
 */
